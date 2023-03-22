@@ -3,7 +3,7 @@ body {
   font-style: normal;
   color: #212121;
 }
-a:hover {
+[href]:hover {
   color: #2196f3;
 }
 
