@@ -1,0 +1,22 @@
+body {
+  font-family: "roboto";
+  font-style: normal;
+  color: #212121;
+}
+[href]:hover {
+  color: #2196f3;
+}
+
+button {
+  background: #f5f4fa;
+  cursor: pointer;
+  
+}
+button:hover,
+button:focus {
+  background: #2196f3;
+}
+
+.description-photo {
+  color: #757575;
+}
