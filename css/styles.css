@@ -10,6 +10,7 @@ body {
 button {
   background: #f5f4fa;
   cursor: pointer;
+  
 }
 button:hover,
 button:focus {
