@@ -17,6 +17,11 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+.img {
+  position: relative;
+  float: left;
+  margin: 10px;
+}
 
 .logo-web {
   font-family: "raleway", sans-serif;
