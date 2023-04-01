@@ -17,7 +17,9 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-
+ul {
+  list-style: none;
+}
 .logo-web {
   font-family: "raleway", sans-serif;
   color: #2196f3;
@@ -54,14 +56,13 @@ a:hover,
 a {
   color: #000000;
 }
-#footer {
+.white-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-
   /*color:#ffffff;*/
   color: red;
 }
