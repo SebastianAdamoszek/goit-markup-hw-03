@@ -1,10 +1,9 @@
 :root {
-  --brand-color:#212121;
+  --brand-color: #212121;
 }
 body {
   font-family: "roboto", sans-serif;
   font-style: normal;
-  
 }
 header {
   font-weight: 500;
@@ -18,7 +17,6 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-
 
 .logo-web {
   font-family: "raleway", sans-serif;
@@ -40,34 +38,117 @@ footer {
 }
 .logo-studio-white {
   font-family: "raleway", sans-serif;
-  /*color: #ffffff;*/ color: red;
+  /*color: #ffffff;*/
+  color: red;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-span:hover, a:hover, #footer:hover {
+span:hover,
+a:hover,
+#footer:hover {
   color: #2196f3;
-} 
+}
 a {
   color: #000000;
 }
 #footer {
-  /*color:#ffffff;*/
-  color:red;
-}
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 
+  /*color:#ffffff;*/
+  color: red;
+}
 
 button {
   background: #f5f4fa;
   cursor: pointer;
+  border: #f5f4fa;
 }
 button:hover,
 button:focus {
   background: #2196f3;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .description-photo {
   color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+nav,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #FFFFFF;*/
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.our-strengths {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.butoon-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.button-studio {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-studio:focus,
+.button-studio:hover {
+  color: #ffffff;
+}
+.butoon-portfolio:focus,
+.butoon-portfolio:hover {
+  color: #ffffff;
 }
