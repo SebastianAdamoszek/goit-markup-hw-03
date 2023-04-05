@@ -55,6 +55,7 @@ a:hover,
 }
 a {
   color: #000000;
+  text-decoration: none;
 }
 .white-link {
   font-family: "Roboto";
