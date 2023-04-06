@@ -117,7 +117,7 @@ h5 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.our-strengths {
+#our-strengths {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -153,4 +153,18 @@ h5 {
 .butoon-portfolio:focus,
 .butoon-portfolio:hover {
   color: #ffffff;
+}
+.container {
+  
+  width: 1200px;
+  
+}
+.section {
+  display: flex;
+}
+.page-header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
