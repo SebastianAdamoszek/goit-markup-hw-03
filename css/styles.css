@@ -20,7 +20,7 @@ footer {
 ul {
   list-style: none;
 }
-.logo-web {
+#logo {
   font-family: "raleway", sans-serif;
   color: #2196f3;
   font-style: normal;
@@ -29,24 +29,12 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-.logo-studio-black {
-  font-family: "raleway", sans-serif;
+.logo-black {
   color: #000000;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 }
-.logo-studio-white {
-  font-family: "raleway", sans-serif;
+.logo-white {
   /*color: #ffffff;*/
   color: red;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 }
 span:hover,
 a:hover,
@@ -155,15 +143,12 @@ h5 {
   color: #ffffff;
 }
 .container {
-  
   width: 1200px;
-  
 }
 .section {
   display: flex;
 }
 .page-header {
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
