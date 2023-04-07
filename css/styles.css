@@ -10,6 +10,12 @@ header {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  width: 1600px;
+  background: #ececec;  
+  box-shadow: 1px 1px 1px #ececec;
+  
+
+  
 }
 footer {
   font-weight: 400;
@@ -37,8 +43,7 @@ ul {
   color: red;
 }
 span:hover,
-a:hover,
-#footer:hover {
+a:hover {
   color: #2196f3;
 }
 a {
