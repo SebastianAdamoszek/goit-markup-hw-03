@@ -10,18 +10,16 @@ header {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  width: 1600px;
-  background: #ececec;  
+    background: #ececec;  
   box-shadow: 1px 1px 1px #ececec;
-  
-
-  
 }
+
 footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  background: #2f303a;
 }
 ul {
   list-style: none;
@@ -39,8 +37,8 @@ ul {
   color: #000000;
 }
 .logo-white {
-  /*color: #ffffff;*/
-  color: red;
+  color: #ffffff;
+  
 }
 span:hover,
 a:hover {
@@ -57,8 +55,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /*color:#ffffff;*/
-  color: red;
+  color:#ffffff;
 }
 
 button {
@@ -88,13 +85,15 @@ nav,
   letter-spacing: 0.02em;
 }
 h1 {
+  
+
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF;*/
+  color: #FFFFFF;
 }
 h2 {
   font-weight: 700;
@@ -149,12 +148,26 @@ h5 {
 }
 .container {
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .section {
   display: flex;
+  padding: 94px;
 }
 .page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.title {
+  
+  
+  background: #2f303a;
+  
+  
+}
+.team{
+  background: #f5f4fa;
 }
