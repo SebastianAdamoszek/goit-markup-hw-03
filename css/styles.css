@@ -10,7 +10,7 @@ header {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-    background: #ececec;  
+  background: #ececec;
   box-shadow: 1px 1px 1px #ececec;
 }
 
@@ -38,7 +38,6 @@ ul {
 }
 .logo-white {
   color: #ffffff;
-  
 }
 span:hover,
 a:hover {
@@ -55,7 +54,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 button {
@@ -87,19 +86,15 @@ nav,
 }
 .menu {
   display: flex;
-  ;
-  
 }
 h1 {
-  
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 h2 {
   font-weight: 700;
@@ -156,11 +151,10 @@ h5 {
   width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
-  
+  justify-content: space-between;
 }
 .section {
-    padding: 94px;
+  padding: 94px;
 }
 .page-header {
   display: flex;
@@ -168,21 +162,16 @@ h5 {
   justify-content: space-between;
 }
 .title {
-  
-  
   background: #2f303a;
-  
-  
 }
-.team{
+.team {
   background: #f5f4fa;
-  }
-  .position-box
-  {margin: 0px 30px 0px 0px;
-
-  }
-  .position-team{
-    margin: 0px 30px 0px 0px;
-   box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-  }
+}
+.position-box {
+  margin: 0px 30px 0px 0px;
+}
+.position-team {
+  margin: 0px 30px 0px 0px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
