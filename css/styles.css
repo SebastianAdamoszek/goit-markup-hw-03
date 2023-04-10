@@ -54,20 +54,8 @@ a:hover {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: px;
 }
-
-button {
-  background: #f5f4fa;
-  cursor: pointer;
-  border: #f5f4fa;
-}
-button:hover,
-button:focus {
-  background: #2196f3;
-  color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
 .nav {
   font-weight: 500;
@@ -83,6 +71,7 @@ button:focus {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-right: 30PX;
 }
 .group {
   display: flex;
@@ -92,14 +81,11 @@ button:focus {
 .group-project {
   display: flex;
   flex-wrap: wrap;
-  
-  
-}
+  }
 h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -126,8 +112,15 @@ h5 {
   color: #757575;
 }
 
-.button-studio {
-  
+.button-studio { 
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+  color: #ffffff;
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -135,12 +128,12 @@ h5 {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.button-studio:focus,
-.button-studio:hover {
-  color: #ffffff;
-}
+
 .butoon-portfolio {
-  
+  background: #f5f4fa;
+  cursor: pointer;
+  border: #f5f4fa;
+  border-radius:4px;
   display: inline;
   text-align: center;
   font-weight: 500;
@@ -148,11 +141,15 @@ h5 {
   line-height: 26px;
   Line-height: 139%;
   letter-spacing: 0.03em;
-  margin: 0px 30px 0px 0px; 
+  margin: 0px 8px 0px 0px; 
 }
 .butoon-portfolio:focus,
 .butoon-portfolio:hover {
+  background: #2196f3;
   color: #ffffff;
+  border: #2196f3;
+  border-radius:4px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .container {
   width: 1200px;
@@ -168,11 +165,11 @@ h5 {
   justify-content: space-between;
 }
 .title {
-  display: flex;
-  flex-direction: column;
- text-align: center;
- align-items: center;
+  
+  
   text-align: center;
+  padding:200px 250px 280px 250px;
+  
   background: #2f303a;
   
 }
@@ -216,4 +213,7 @@ h5 {
   Letter-spacing: 3%;
   
   color: #757575;
+}
+.address {
+  margin-left: -40px;
 }
