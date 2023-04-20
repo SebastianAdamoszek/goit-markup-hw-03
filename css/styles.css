@@ -32,6 +32,10 @@ h2 {
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.hidden {
+  display: none;
 }
 h5 {
   font-weight: 700;
@@ -133,11 +137,7 @@ display: flex;
 justify-content: space-between;
 margin: 0px 15px 0px 15px;
 }
-.menu {
-  display: flex;
-  justify-content: center;
-}
-  
+ 
 .butoon-portfolio {
   font-family: "roboto";
   font-size: 16px;
@@ -151,7 +151,7 @@ margin: 0px 15px 0px 15px;
   display: inline;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0px 8px 0px 0px;
+  margin: 0px 8px 34px 0px;
   padding: 6px 22px 6px 22px; 
 }
 .butoon-portfolio:focus,
