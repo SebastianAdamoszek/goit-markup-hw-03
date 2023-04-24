@@ -1,7 +1,5 @@
 body {
   font-family: "roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px; 
   background: #ffffff;
   color: #212121;
@@ -57,6 +55,10 @@ a:focus
 nav {
   margin-left:-300px;
 }
+.wrapper {
+  width: 1600px;
+  margin: 0px auto;
+}
 .container {
   width: 1200px;
   margin: 0px auto;
@@ -70,7 +72,7 @@ nav {
   color: #2196f3;
   font-size: 26px;
   letter-spacing: 0.03em;
-  margin-left: 15px;
+  margin-left: 215px;
 }
 .logo-black {
   color: #000000;
@@ -114,8 +116,6 @@ nav {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 41px 10px 41px;
 }
@@ -194,7 +194,7 @@ margin: 0px 15px 0px 15px;
   color: #757575;
 }
 .address {
-  margin-left: 15px;
+  margin-left: 215px;
 }
 .white-link {
    font-style: normal;
