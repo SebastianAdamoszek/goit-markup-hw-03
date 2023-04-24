@@ -1,6 +1,9 @@
 body {
   font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px; 
+  line-height: 19px;
   background: #ffffff;
   color: #212121;
 }
@@ -8,8 +11,8 @@ header {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  background: #ececec;
-  box-shadow: 1px 1px 1px #ececec;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px 0px #ececee;
   }
 footer {
   font-size: 14px;
@@ -57,7 +60,7 @@ nav {
 }
 .wrapper {
   width: 1600px;
-  margin: 0px auto;
+  margin: 50px auto;
 }
 .container {
   width: 1200px;
@@ -102,7 +105,7 @@ nav {
 }
 .title {  
   text-align: center;
-  padding:200px 250px 280px 250px; 
+  padding:200px 452px 280px 452px; 
   background: #2f303a;
 }
 .button-studio { 
@@ -112,9 +115,8 @@ nav {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
   color: #ffffff;
   cursor: pointer;
-  font-family: "roboto";
+  
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.06em;
   padding: 10px 41px 10px 41px;
@@ -138,9 +140,9 @@ justify-content: space-between;
 margin: 0px 15px 0px 15px;
 }
  
-.butoon-portfolio {
-  font-family: "roboto";
-  font-size: 16px;
+.button-portfolio {
+  
+  
   font-style: medium;
   font-weight: 500;
   line-height: 1.39;
@@ -154,8 +156,8 @@ margin: 0px 15px 0px 15px;
   margin: 0px 8px 34px 0px;
   padding: 6px 22px 6px 22px; 
 }
-.butoon-portfolio:focus,
-.butoon-portfolio:hover {
+.button-portfolio:focus,
+.button-portfolio:hover {
   background: #2196f3;
   color: #ffffff;
   border: #2196f3;
@@ -163,11 +165,13 @@ margin: 0px 15px 0px 15px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .description-person {
+  background: #F5F4FA;
   text-align: center;  
   letter-spacing: 0.03em;
   margin: 0px 15px 0px 15px;
   box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .description-person :last-of-type {
   color: #757575;
