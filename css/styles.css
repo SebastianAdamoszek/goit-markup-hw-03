@@ -1,24 +1,36 @@
+:root {
+  --black-text-color: #212121;
+  --white-color: #ffffff;
+  --gray-color: #757575;
+  --dark-color: #2f303a;
+  --blue-color: #2196f3;
+  --line-main-color : #ececec;
+  --light-gray-color :  #f5f4f5;
+  --logo-black-color : #000000;
+  --light-gray-text-color:  rgba(255, 255, 255, 0.6);
+
+}
 body {
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px; 
   line-height: 19px;
-  background: #ffffff;
-  color: #212121;
+  background: var(--white-color);
+  color: var(--black-text-color);
 }
 header {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  background: #ffffff;
-  box-shadow: 0px 1px 0px 0px #ececee;
+  background: var(--white-color);
+  box-shadow: 0px 1px 0px 0px var(--line-main-color);
   }
 footer {
   font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  background: #2f303a;
+  background: var(--dark-color);
 }
 h1 {
   font-weight: 900;
@@ -26,7 +38,7 @@ h1 {
   line-height: 1.16;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
   }
 h2 {
   font-weight: 700;
@@ -53,7 +65,7 @@ a:link {
 a:hover,
 a:focus
  {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 nav {
   margin-left:-300px;
@@ -72,16 +84,16 @@ nav {
 }
 .logo {
   font-family: "raleway", sans-serif;
-  color: #2196f3;
+  color: var(--blue-color);
   font-size: 26px;
   letter-spacing: 0.03em;
   margin-left: 215px;
 }
 .logo-black {
-  color: #000000;
+  color: var(--logo-black-color);
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .page-header {
   display: flex;
@@ -93,27 +105,27 @@ nav {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black-text-color);
   margin: 0px 46px 0px 0px;
 }
 .nav-active{
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .contacts {
-  color: #757575;
+  color: var(--gray-color);
   margin-right: 15px;
 }
 .title {  
   text-align: center;
   padding:200px 452px 280px 452px; 
-  background: #2f303a;
+  background: var(--dark-color);
 }
 .button-studio { 
-  background: #2196f3;
-  border: #2196f3;
+  background:var(--blue-color);
+  border: var(--blue-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
   
   font-weight: 700;
@@ -125,7 +137,7 @@ nav {
   font-size: 14px;
   line-height: 1.46;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
 }
 .section {
   padding: 94px 0px 94px 0px;
@@ -140,15 +152,13 @@ justify-content: space-between;
 margin: 0px 15px 0px 15px;
 }
  
-.button-portfolio {
-  
-  
+.button-portfolio { 
   font-style: medium;
   font-weight: 500;
   line-height: 1.39;
-  background: #f5f4fa;
+  background: var(--light-gray-color);
   cursor: pointer;
-  border: #f5f4fa;
+  border: var(--light-gray-color);
   border-radius: 4px;
   display: inline;
   text-align: center;
@@ -158,14 +168,14 @@ margin: 0px 15px 0px 15px;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
-  background: #2196f3;
-  color: #ffffff;
-  border: #2196f3;
+  background:var(--blue-color);
+  color: var(--white-color);
+  border: var(--blue-color);
   border-radius:4px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .description-person {
-  background: #F5F4FA;
+  background: var(--light-gray-color);
   text-align: center;  
   letter-spacing: 0.03em;
   margin: 0px 15px 0px 15px;
@@ -174,7 +184,7 @@ margin: 0px 15px 0px 15px;
   border-bottom-right-radius: 4px;
 }
 .description-person :last-of-type {
-  color: #757575;
+  color: var(--gray-color);
 }
 .group-project {
   display: flex;
@@ -195,17 +205,17 @@ margin: 0px 15px 0px 15px;
   Font-size: 16px;
   Line-height: 1.6;
   Letter-spacing: 3%;  
-  color: #757575;
+  color: var(--gray-color);
 }
 .address {
   margin-left: 215px;
 }
 .white-link {
    font-style: normal;
-   color: #ffffff;
+   color: var(--white-color);
 }
 .gray-link {
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--light-gray-text-color);
 }
 
