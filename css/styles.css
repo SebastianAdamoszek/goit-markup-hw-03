@@ -156,10 +156,14 @@ a:focus {
 .section{
   padding: 94px 0px 94px 0px;
 }
+.section-two {
+  padding-top: 70px;
+}
 
 .group-studio {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 .group-buttons {
   display: flex;
@@ -168,9 +172,8 @@ a:focus {
 
 .section-team {
   background: var(--bg-team-white-color);
-  width: 1600px;
-  padding: 94px 0px 0px 0px;
-  
+  width: 1600px; 
+  padding-top: 94px;
 }
 
 .button-portfolio {
