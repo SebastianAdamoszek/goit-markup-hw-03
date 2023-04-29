@@ -27,14 +27,14 @@ header {
 }
 footer {
   font-size: 14px;
-  line-height: 1.6;
   letter-spacing: 0.03em;
   background: var(--dark-color);
+  padding: 50px 0px 25px 0px;
 }
 h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.16;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
@@ -58,10 +58,10 @@ ul {
   list-style: none;
 }
 p {
-  line-height: 2;
+  line-height: 1.8;
 }
 a {
-  line-height: 2;
+  line-height: 2.2;
 }
 a:link {
   text-decoration: none;
@@ -70,9 +70,7 @@ a:hover,
 a:focus {
   color: var(--blue-color);
 }
-nav {
-  margin-left: -300px;
-}
+
 .wrapper {
   width: 1600px;
   margin: 0px auto;
@@ -87,14 +85,14 @@ nav {
 }
 .group-nav {
   display: flex;
-  justify-content: space-between;
+  padding-left: 93px;  
 }
 .logo {
   font-family: "raleway", sans-serif;
   color: var(--blue-color);
   font-size: 26px;
   letter-spacing: 0.03em;
-  margin-left: 215px;
+  padding-left: 215px;
 }
 .logo-black {
   color: var(--logo-black-color);
@@ -105,7 +103,8 @@ nav {
 .group-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 10px 0px 10px 0px;
 }
 .nav {
   font-style: medium;
@@ -113,18 +112,21 @@ nav {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--black-text-color);
-  margin: 0px 46px 0px 0px;
+  padding: 0px 46px 0px 0px;
 }
 .nav-active {
   color: var(--blue-color);
 }
+.contacts-position {
+  padding-left: 250px;  
+}
 .contacts {
   color: var(--gray-color);
-  margin-right: 15px;
+  padding-left: 50px;
 }
 .title {
   text-align: center;
-  padding: 200px 452px 280px 452px;
+  padding: 200px 452px 200px 452px;
   background: var(--dark-color);
 }
 .button-studio {
@@ -137,12 +139,12 @@ nav {
   color: var(--white-color);
   cursor: pointer;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.8;
   letter-spacing: 0.06em;
   padding: 10px 41px 10px 41px;
 }
 .elements-position {
- padding: 0px 15px 0px 15px;
+ padding: 15px 0px 15px 0px;
 }
 .our-strengths-text {
   font-size: 14px;
@@ -151,7 +153,7 @@ nav {
   color: var(--gray-color);
 }
 
-.section {
+.section{
   padding: 94px 0px 94px 0px;
 }
 
@@ -167,6 +169,8 @@ nav {
 .section-team {
   background: var(--bg-team-white-color);
   width: 1600px;
+  padding: 94px 0px 0px 0px;
+  
 }
 
 .button-portfolio {
@@ -193,6 +197,7 @@ nav {
 }
 .description-person {
   background: var(--light-gray-color);
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   
@@ -211,20 +216,23 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+      
 }
 .description-project {
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
-  line-height: 1.71;
+  line-height: 3.1;
   text-align: Left;
   vertical-align: Top;
-  letter-spacing: 6%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+   
 }
 .description-project :last-of-type {
+  
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 3%;
+  line-height: 2.5;
   color: var(--gray-color);
 }
 .address {
