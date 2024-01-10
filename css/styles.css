@@ -10,6 +10,12 @@
   --bg-team-white-color: #f4f5fa;
   --light-gray-text-color: rgba(255, 255, 255, 0.6);
 }
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
 body {
   font-family: "roboto", sans-serif;
   font-style: normal;
