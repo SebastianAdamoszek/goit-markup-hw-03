@@ -69,9 +69,7 @@ p {
 a {
   line-height: 2.2;
 }
-a:link {
-  text-decoration: none;
-}
+
 a:hover,
 a:focus {
   color: var(--blue-color);
@@ -85,10 +83,7 @@ a:focus {
   width: 1200px;
   margin: 0px auto;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 .group-nav {
   display: flex;
   padding-left: 93px;  
